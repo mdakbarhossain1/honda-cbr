@@ -1,0 +1,47 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-honda-primary{
+    background: #264653;
+}
+
+.btn-honda{
+    border: solid #e76f51;
+    color: #e76f51;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: transparent;
+}
+.btn-honda:hover{
+    background: #e76f51;
+    color: #ffffff;
+}
+
+.btn-honda-model{
+    border: none;
+    color: #e76f51;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background: #e76f51;
+}
+
+
+.btn-honda-orange{
+    background: #e76f51;
+}
+
+
+.img-gray-scale img{
+    filter: grayscale(100%);
+}
+
+.img-fixed img{
+    width: -webkit-fill-available;
+}
+.fa-star{
+    color: #e76f51;
+}
